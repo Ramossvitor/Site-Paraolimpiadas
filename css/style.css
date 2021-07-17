@@ -2,29 +2,110 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://css.gg/instagram.css');
+
+* {
+    margin: 0px;
+}
+
+:root {
+    --cor0: #F2BD1D;
+    --cor1: #F28705;
+    --cor2: #F26A1B;
+    --cor3: #317302;
+    --branco: #F2F2F2;
+    
+    --roboto: 'Roboto', Arial, Helvetica, sans-serif;
+    --opensans: 'Open Sans', Arial, Helvetica, sans-serif;
+}
 
 body {
-    margin: 0px;
+    background-color: var(--cor2);
 }
 
 header {
     margin: 0px;
+    padding-left: 15px;
 
-    background-color: black;
+    background-image: linear-gradient(to top, var(--cor1), var(--cor0));
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
+
+    min-height: 180px;
+    max-height: 180px;
 }
 
 header h1 {
     margin: 0px;
+    padding-top: 25px;
 
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-weight: 800;
+    font-family: var(--roboto);
+    font-weight: 900;
     text-align: center;
+    font-size: 2.5em;
 }
 
 header p {
     margin: 0px;
+    padding-top: 6px;
 
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: var(--opensans);
     font-weight: 400;
+    text-align: center;
+}
+
+header > nav{   
+    margin-top: 23px;
+}
+
+nav > a {
+    display: inline-block;
+
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: #f29d1d;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.164);
+    border-radius: 15px;
+
+}
+
+nav > a:hover {
+    background-color: #dd8f19;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
+    text-decoration: underline;
+
+    transition: 0.3s;
+}
+
+section > article {
+    padding: 20px;
+    max-width: 850px;
+    min-width: 350px;
+    margin: auto;
+    margin-bottom: 80px;
+
+    background-color: var(--branco);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    border-radius: 0px 0px 10px 10px;
+}
+
+article > p {
+    font-family: var(--opensans);
+    font-size: 1em;
+    text-align: justify;
+}
+
+article > h1 {
+    font-family: var(--roboto);
+    font-size: 2em;
+}
+
+footer {
+    padding: 10px;
+    background-color: var(--cor1);
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.514);
+    font-family: var(--opensans);
     text-align: center;
 }
