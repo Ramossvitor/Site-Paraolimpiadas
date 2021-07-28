@@ -24,37 +24,15 @@
 }
 
 nav {
+    padding-top: 15px;
     text-align: center;
 }
 
-nav > a {
+nav > a{
     font-size: 3em;
     text-decoration: none;
 
     font-family: var(--lato);
     color: white;
     font-weight: 900;
-}
-
-div.turma {
-    margin: 50px;
-
-    transition: transform .3s;
-
-    min-width: 350px;
-    max-width: 1000px;
-
-    min-height: 350px;
-    max-height: 1000px;
-
-    display: inline-block;
-    background-color: lightgray;
-
-    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.288);
-    text-align: center;
-    border-radius: 10px;
-}
-
-div.turma:hover {
-    transform: scale(1.1);
 }
