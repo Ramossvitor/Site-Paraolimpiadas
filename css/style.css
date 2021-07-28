@@ -71,9 +71,14 @@ article > h1 {
 }
 
 footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
     padding: 10px;
     background-color: var(--cor1);
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.514);
     font-family: var(--opensans);
-    text-align: center;
 }
