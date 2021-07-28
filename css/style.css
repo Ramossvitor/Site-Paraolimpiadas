@@ -9,10 +9,10 @@
 }
 
 :root {
-    --cor0: #F2BD1D;
-    --cor1: #F28705;
-    --cor2: #F26A1B;
-    --cor3: #317302;
+    --cor0: #760D74;
+    --cor1: #680478;
+    --cor2: #4D0B6D;
+    --cor3: #3B003B;
     --branco: #F2F2F2;
     
     --roboto: 'Roboto', Arial, Helvetica, sans-serif;
@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: var(--cor2);
+    background-color: lightgray;
 }
 
 header {
@@ -30,8 +30,8 @@ header {
     background-image: linear-gradient(to top, var(--cor1), var(--cor0));
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.562);
 
-    min-height: 180px;
-    max-height: 180px;
+    min-height: 80px;
+    max-height: 80px;
 }
 
 header h1 {
@@ -53,8 +53,8 @@ header p {
     text-align: center;
 }
 
-header > nav{   
-    margin-top: 23px;
+header > nav{
+    
 }
 
 nav > a {
@@ -81,8 +81,6 @@ nav > a:hover {
 
 section > article {
     padding: 20px;
-    max-width: 850px;
-    min-width: 350px;
     margin: auto;
     margin-bottom: 80px;
 
