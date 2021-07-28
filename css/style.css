@@ -2,17 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
-@import url('https://css.gg/instagram.css');
 
 * {
     margin: 0px;
 }
 
 :root {
-    --cor0: #760D74;
-    --cor1: #680478;
-    --cor2: #4D0B6D;
-    --cor3: #3B003B;
+    --cor0: #024995;
+    --cor1: #0e88c0;
+    --cor2: #3273a8;
     --branco: #F2F2F2;
     
     --roboto: 'Roboto', Arial, Helvetica, sans-serif;
@@ -20,7 +18,7 @@
 }
 
 body {
-    background-color: lightgray;
+    background-color: var(--branco);
 }
 
 header {
@@ -53,39 +51,11 @@ header p {
     text-align: center;
 }
 
-header > nav{
-    
-}
-
-nav > a {
-    display: inline-block;
-
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 300;
-    padding: 10px;
-    color: black;
-    text-decoration: none;
-    background-color: #f29d1d;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.164);
-    border-radius: 15px;
-
-}
-
-nav > a:hover {
-    background-color: #dd8f19;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.39);
-    text-decoration: underline;
-
-    transition: 0.3s;
-}
-
 section > article {
     padding: 20px;
     margin: auto;
     margin-bottom: 80px;
 
-    background-color: var(--branco);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
     border-radius: 0px 0px 10px 10px;
 }
 
